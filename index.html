@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Emran">
+    <meta name="description" content="Welcome to our mobile restaurant menu web app. Browse our delicious menu items and place your order conveniently from your mobile device. Discover a wide range of flavorful options and enjoy a seamless dining experience.">
+    <!-- link to css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- adding favicon -->
+    <link rel="icon" href="favicon.png" type="image/x-png">
+    <!-- font family from google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+    <title>Mobile Restaurant Menu</title>
+</head>
+<body>
+
+    <header>
+        <div>
+            <h1>Solomon's Fast</h1>
+            <h4>The best burger and pizza in town</h4>
+        </div>
+    </header>
+    <main>
+        <section class="item-1">
+            <div>
+                <div class="img">🍕</div>
+                <div class="item-1-one">
+                    <h2>Pizza</h2>
+                    <p>pepperoni,mushrom,mozarella</p>
+                    <h2>$14</h2>
+                </div>
+            </div>
+            <button id="btn-0">+</button>
+        </section>
+        <section class="item-2">
+            <div>
+                <div class="img">🍔</div>
+                <div class="item-2-two">
+                    <h2>Doubleburger</h2>
+                    <p>beef,fish,cheese</p>
+                    <h2>$12</h2>
+                </div>
+            </div>
+            <button id="btn-1">+</button>
+        </section>
+        <section class="item-3">
+            <div>
+                <div class="img">🥛</div>
+                <div class="item-3-three">
+                    <h2>Milk</h2>
+                    <p>Goat,Cow,Camel</p>
+                    <h2>$13</h2>
+                </div>
+            </div>
+            <button id="btn-2">+</button>
+        </section>
+    </main>
+    <footer>
+        <h2>Your order</h2>
+        <div class="footer-cont" id="footer-cont">
+        <!-- <div class="item"><h2>yemgbaynet</h2><h2>waga</h2></div> -->
+       
+        </div>
+        <button id="comp-btn">Complete order</button>
+
+    </footer>
+    <div id="foot-sub" class="foot-sub">
+
+    </div>
+    <div class="form-cont" id="form-cont">
+         <h2>Enter card details</h2>
+         <form id="form-el" >
+            <input type="text" name="name" placeholder="Enter your name" required>
+            <input type="text" placeholder="Enter card number" required>
+            <input type="password" placeholder="Enter CVV" required>
+            <button disabled id ="pay-btn" type="submit">Pay</button>
+
+         </form>
+    </div>
+    <script src="index.js" type="module"></script>
+</body>
+</html>
