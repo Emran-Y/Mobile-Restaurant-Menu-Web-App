@@ -145,6 +145,7 @@ footer h2{
     left: 50%;
     transform: translate(-50%, -50%);
     display: none;
+    border: 3px solid whitesmoke;
 }
 .form-cont h2{
     font-weight: bold;
